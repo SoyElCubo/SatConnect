@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="sat_connect_view_form" model="ir.ui.view">
+        <field name="name">sat.connect.form</field>
+        <field name="model">hr.payslip</field>
+        <field name="inherit_id" ref="om_hr_payroll.view_hr_payslip_form"/>
+        <field name="arch" type="xml">
+           <xpath expr="//header" position="inside">
+                <button name="fac_create_cfdi" string="Timbrar" type="object" class="oe_highlight"/>
+           </xpath>
+        </field>
+        </record>
+
+</odoo>

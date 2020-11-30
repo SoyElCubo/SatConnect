@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sat_connect,access_sat_conect,model_sat_connect,,1,0,0,0
